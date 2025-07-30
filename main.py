@@ -3,18 +3,6 @@ import pandas as pd
 import plotly.express as px
 
 
-st.markdown("""
-    <style>
-        .big-font {
-            font-size: 28px !important;
-        }
-        .centered {
-            text-align: center;
-        }
-    </style>
-""", unsafe_allow_html=True)
-
-st.markdown('<p class="big-font centered">💰 Faturamento Total por Ano</p>', unsafe_allow_html=True)
 
 df = pd.read_excel("FaturamentoMensal.xlsx")
 
